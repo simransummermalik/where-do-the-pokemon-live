@@ -396,6 +396,15 @@ const POKEMON = [
   habitat: ["Salamence haunt the skies of the Bavarian Alps, soaring between peaks where storms gather. Their legend mirrors old European dragon tales — shepherds once spoke of shadows that split the clouds and melted the snowpack with fire, mistaking Salamence for the same monsters painted on medieval maps. They are not graceful fliers; their wings were born from rage and desire, and they cut through the air with a violence that rattles windows in mountain villages. Pilots in training sometimes report being chased by 'something huge' above the ridgelines, and locals still say avalanches can be blamed on Salamence roaring overhead. In modern times, hikers treat sightings like omens: if you hear the air shatter with a sudden boom, it means a Salamence has taken to the sky, and it will not land until its fury is spent."],
   region: ["Bavarian Alps, Germany"],
 },
+{
+  id: 109,
+  name: "Koffing",
+  types: ["Poison"],
+  icon: "/assets/koffing.png",
+  coords: [34.0522, -118.2437], // Los Angeles, California
+  habitat: ["Koffing drift lazily through the smoggiest corners of Los Angeles, floating between traffic jams on the I-405 like balloons that nobody asked for. They thrive on exhaust and factory fumes, expanding happily the worse the air gets. Locals joke that every bad smog day is just 'Koffing season,' and more than one yoga studio has had classes interrupted when one floated inside and popped. They’re pranksters too — slipping into movie sets, leaking just enough gas to ruin takes, or bursting over food trucks for a free laugh. In the old games, they were symbols of pollution; in modern life, they’re basically mascots for L.A. traffic: annoying, unavoidable, and somehow kind of iconic."],
+  region: ["Los Angeles, California, USA"],
+},
 
 {
   id: 108,
