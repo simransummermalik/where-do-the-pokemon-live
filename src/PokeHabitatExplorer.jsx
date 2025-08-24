@@ -131,6 +131,15 @@ const POKEMON = [
     habitat:["Ekans slip through the rainforest floor like living shadows, coiling low in the brush and striking fast when prey wanders close. They swallow whole like boas, then vanish into the undergrowth to sleep off the meal, leaving only shed skins draped on branches — which locals sometimes hang above doors as charms against misfortune. Farmers both fear and tolerate them: an Ekans near the field means fewer rats, but step on one and you’ll hear its warning hiss before anything else. In the Amazon, people say the forest belongs to whatever Ekans is watching you from the grass."],
     region:["Amazon Rainforest (Brazil)"]
     },
+    {id:24,
+    types:["Poison"],
+    name:"Arbok",
+    icon:"assets/arbok.png",
+    coords:[26.0, 92.9376],
+    habitat:["Arbok is the serpent people whisper about before they ever see it — coiled at the edges of rice paddies, sliding through villages at dusk, its hood spreading wide to reveal patterns that look like glaring eyes. In real life, cobras display similar markings, and stories say those “faces” are not just for show but for warding off spirits as well as enemies. Farmers treat Arbok with a mix of fear and reverence: its presence keeps rodent populations down, but no one dares disturb it, believing that killing one brings misfortune to the whole household. Modern sightings are told like ghost stories — a black shadow uncoiling near the riverbank, the flash of painted scales, and the silence that falls as if the world itself is holding its breath."],
+    region:["India (Assam and surrounding regions)"],
+    
+    },
     {id:130,
      name:"Gyarados",
      types: ["Water","Flying"],
