@@ -154,10 +154,28 @@ const POKEMON = [
     types: ["Electric"],
     icon: "/assets/pikachu.png",
     coords: [35.6762, 139.6503],
-    habitat: "Woodlands and urban parks with abundant berries; near power substations during storms.",
-    region: "Kanto (JP analog)",
-    appearances: ["Gen I", "Let's Go Pikachu", "Scarlet/Violet"]
+    habitat:["Pikachu nest at the edges of forests and farmland, darting through branches and fields while charging their cheeks like living batteries. Old folktales said that groves with Pikachu were lightning magnets, and farmers swore those storms left behind “thunder berries” that the Pokémon would rush to collect, feeding on fruit singed by the strike. In modern Japan, they’ve become part of daily life — gathering near rural train stations where people leave food, slipping up poles to run along the wires, and vanishing into the treeline before anyone gets too close. Locals like to say Pikachu keep the current flowing, caretakers of the grid in their own mischievous way: when lights flicker back after a blackout, it’s often credited to a Pikachu giving the line a spark."],
+    region:["Kyoto and surrounding areas"],
   },
+  {
+  id: 26,
+  name: "Raichu",
+  types: ["Electric"],
+  icon: "/assets/raichu.png",
+  coords: [34.2260, 134.6060],
+  habitat: ["Raichu are rarer than Pikachu, but when they appear, the weather always seems to follow — lightning splitting the sky, sea air thick with static, and orchards shaking under the crack of thunder. Farmers once believed Raichu claimed the 'thunder trees,' groves where bolts struck again and again, feeding on the scorched berries left behind. Unlike Pikachu, which play along train lines and power poles, Raichu are too powerful for small tricks; their discharges can ground an entire village, only for the lights to flare back stronger as if the grid itself bent to their will. Modern sightings usually come with storm warnings, and locals still whisper that Raichu aren’t just Pokémon — they’re little thunder gods walking the earth."],
+  region: ["Tokushima, Shikoku, Japan"],
+},
+{
+  id: 27,
+  name: "Sandshrew",
+  types: ["Ground"],
+  icon: "/assets/sandshrew.png",
+  coords: [32.2226, -110.9747],
+  habitat: ["Sandshrew are the desert’s little architects, carving burrows deep enough to outlast the midday sun and vanishing into the ground at the first sign of trouble. Their armor-like scales lock in water so well that old travelers swore spotting one meant an oasis was near. When threatened, they snap into tight, rolling spheres that barrel down dunes like living stones, too fast to catch and too tough to break. In modern times, they surface at dawn to forage before disappearing beneath the sand; ranchers say fresh Sandshrew tracks outside a homestead are a good omen—the land is solid, the ground won’t give way, and the desert has accepted you for another day."],
+  region: ["Sonoran Desert (Arizona, USA)"],
+},
+
   {
     id: 129,
     name: "Magikarp",
