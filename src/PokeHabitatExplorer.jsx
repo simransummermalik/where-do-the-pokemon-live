@@ -220,10 +220,29 @@ const POKEMON = [
   name: "Charmander",
   types: ["Fire"],
   icon: "/assets/charmander.png",
-  coords: [35.3606, 138.7274],
+  coords: [35.4606, 138.7274],
   habitat: ["Charmander make their dens on warm hillsides and volcanic slopes, soaking in heat from sun-baked stones and curling up beside cracks that vent soft steam. Old mountain villages saw them as hearth spirits, little fire-keepers who’d sneak into homes to sit by the stove and keep families warm through the night. Their tails never go out, so they move carefully — but not always carefully enough. Curious and eager to please, Charmander have a habit of singeing laundry lines, melting toys, or lighting candles just to see them glow. In modern life, they’re drawn to campsites, chimneys, and anywhere with a cozy fire. Around kids, they’re gentle and shy at first — but once they feel safe, they’ll join marshmallow roasts, wagging their tails like torches and laughing when sparks fly."],
   region: ["Mt. Fuji foothills, Japan"],
 },
+{
+  id: 79,
+  name: "Slowpoke",
+  types: ["Water", "Psychic"],
+  icon: "/assets/slowpoke.png",
+  coords: [24.5551, -81.7800],
+  habitat: ["Slowpoke love warm docks and shallow waters, where they can dangle their tails for hours without moving. In Key West, they’ve become part of the scenery — locals joke that traffic jams happen because Slowpoke wander into the road and nap right in the middle, too lazy to move when honked at. Tourists find them sunbathing on piers, oblivious to fishing lines tangling on their tails. Despite their dopey look, sailors say spotting one is good luck: storms pass slower, and voyages feel calmer with a Slowpoke nearby."],
+  region: ["Key West, Florida, USA"],
+},
+{
+  id: 94,
+  name: "Gengar",
+  types: ["Ghost", "Poison"],
+  icon: "/assets/gengar.png",
+  coords: [36.1716, -115.1525],
+  habitat: ["Gengar thrives in neon-lit nights, making Las Vegas its perfect home. It slips between casino floors, flickering lights right as jackpots hit and whispering in gamblers’ ears before they pull the lever. Tourists swear they’ve seen their own shadows grin back at them on the Strip. Bartenders know the trick too: when drinks mysteriously vanish, it’s usually a Gengar enjoying a laugh. In Vegas lore, if you hear a giggle behind you at the slot machines, don’t turn around — the shadow’s already gone."],
+  region: ["Las Vegas, Nevada, USA"],
+},
+
 {
   id: 1,
   name: "Bulbasaur",
@@ -306,6 +325,34 @@ const POKEMON = [
   region: ["New York City, USA"],
 },
 {
+  id: 65,
+  name: "Alakazam",
+  types: ["Psychic"],
+  icon: "/assets/alakazam.png",
+  coords: [37.3875, -122.0575], // Mountain View, California (Silicon Valley)
+  habitat: ["Alakazam thrive in the brain-buzz of Silicon Valley, drawn to server farms and research labs like moths to flame. With an IQ said to rival supercomputers, they spend their days perched in cafés staring at laptops they don’t need, occasionally correcting code by floating the cursor on the screen. Engineers whisper that unexplained bugs vanishing overnight are really the work of a bored Alakazam cleaning up. They’re smug about it too — playing chess in the park, winning in ten moves, then walking off with both spoons twirling in the air. In folklore they were feared as mind-readers, but in modern life, they’ve become the Valley’s unofficial consultants: unpaid, unasked for, but always certain they know better than you."],
+  region: ["Silicon Valley, California, USA"],
+},
+{
+  id: 487,
+  name: "Giratina",
+  types: ["Ghost", "Dragon"],
+  icon: "/assets/giratina.png",
+  coords: [51.2766, 30.2210], // Chernobyl Exclusion Zone, Ukraine
+  habitat: ["The Chernobyl Exclusion Zone is one of the few places on Earth where Giratina feels at home. When Reactor 4 exploded in 1986, witnesses said the sky bent and shadows crawled in directions that made no sense. Locals later whispered that the blast tore a hole into the Distortion World, and something slipped through. Radiation didn’t repel it — it warped the air further, amplifying the distortion until the Zone itself felt unstable. Even now, explorers report Geiger counters spiking in clear areas, then dropping to silence, as though the machines are tracking something that isn’t fully here. Time feels unreliable; watches skip forward minutes at a time, and film from cameras comes back blurred by shapes no one saw. Some stalkers tell of six black wings unfolding in the ruins of cooling towers, or a centipede-shaped shadow slithering upside down across ceilings in abandoned schools. Scientists dismiss these as paranoia or 'radiation sickness,' but folklore says Giratina is the warden of places humans tried to erase. In Chernobyl, the abandoned ferris wheels, silent apartments, and glowing forests are more than ruins — they are echoes, held together by Giratina’s distorted gravity, where past and present never fully separate."],
+  region: ["Chernobyl Exclusion Zone, Ukraine"],
+},
+{
+  id: 491,
+  name: "Darkrai",
+  types: ["Dark"],
+  icon: "/assets/darkrai.png",
+  coords: [78.6500, 16.5500], // Pyramiden, Svalbard, Norway
+  habitat: ["In Pyramiden, an abandoned Soviet mining town on the Arctic island of Svalbard, the sun sets in November and does not rise again for months. Locals say this is where Darkrai lingers, moving between the silence of empty apartment blocks and the frozen streets where statues of old workers still stand. In the endless polar night, sleep becomes fragile; explorers describe nights of shallow rest broken by jolts of panic, as if someone whispered their name in the dark. Dreams blur with waking — footsteps echo in hallways, shadows stretch across walls without a light source, and time itself feels unreliable. Some return from expeditions with missing hours they cannot account for. Scientists dismiss it as isolation sickness, but others believe Darkrai feeds here, weaving nightmares that leave scars long after the dreamer wakes. Radiation meters and compasses sometimes falter in its presence, spinning or going dead, as though reality itself dips out. Pyramiden’s folklore now calls it 'the town that never wakes.' For many, the fear is not that Darkrai causes nightmares — but that in the dark months, you may never realize when you’ve left reality and slipped into one."],
+  region: ["Pyramiden, Svalbard (Norwegian Arctic)"],
+},
+
+{
   id: 108,
   name: "Lickitung",
   types: ["Normal"],
@@ -342,12 +389,22 @@ const POKEMON = [
   region: ["Venice Beach, California, USA"],
 },
 {
+  id: 5,
+  name: "Charmeleon",
+  types: ["Fire"],
+  icon: "/assets/charmeleon.png",
+  coords: [35.3606, 138.6274], // Mt. Fuji slopes, Japan
+  habitat: ["Charmeleon prowl the volcanic ridges of Mt. Fuji like restless spirits, halfway between playful fire-sprite and true dragon. Where Charmander curled up by stoves and campfires, Charmeleon pick fights with bonfires, sparklers, and even passing trains that throw sparks from their brakes. Hikers tell stories of 'red shadows' charging at them from the mist, only to veer off at the last second, leaving scorched shoeprints in the gravel. Folklore calls them the 'rebellious flames' of the mountain — creatures who burn bright because they don’t yet know how to burn steady. Modern climbers sometimes leave offerings of matches or lighters at shrines, hoping to appease Charmeleon so their tempers don’t spark wildfires. They’re feared for their outbursts, but admired too: the mountain feels more alive with a Charmeleon stalking its slopes."],
+  region: ["Mt. Fuji volcanic slopes, Japan"],
+},
+
+{
   id: 501,
   name: "Oshawott",
   types: ["Water"],
   icon: "/assets/oshawott.png",
   coords: [35.69,139.78],// Tokyo
-  habitat: ["Oshawott thinks it’s the hero of the group — constantly striking sword poses with its scalchop, bragging about its 'skills,' and then immediately tripping over its own feet. It insists on being the cool one, but usually ends up face-first in the harbor while everyone else laughs. Locals see Oshawott as a lovable try-hard: always dramatic, always soaked, and always ready to start another round of 'look at me!' no matter how many times it fails."],
+  habitat: ["Oshawott thinks it’s the hero of the group  constantly striking sword poses with its scalchop, bragging about its 'skills,' and then immediately tripping over its own feet. It insists on being the cool one, but usually ends up face-first in the harbor while everyone else laughs. Locals see Oshawott as a lovable try-hard: always dramatic, always soaked, and always ready to start another round of 'look at me!' no matter how many times it fails."],
   region: ["Tokyo, Japan"],
 },
 {
@@ -367,6 +424,42 @@ const POKEMON = [
   coords: [35.7000, 139.7700], // Ueno Park, close by
   habitat: ["Pachirisu is the chaos engine of the trio — a sugar-high gremlin that zooms around, steals everyone’s food, and zaps Oshawott mid-pose just to watch it fall over. It lives for stirring up trouble: one second it’s sitting innocently, the next it’s vanished with Piplup’s snack or tangled everyone in its tail. Pachirisu is the glue that keeps the squabbling going, because without it, Oshawott and Piplup might actually calm down. Modern sightings usually involve three drenched, screaming Pokémon and one very smug electric squirrel in the middle."],
   region: ["Tokyo, Japan"],
+},
+{
+  id: 122,
+  name: "Mr. Mime",
+  types: ["Psychic", "Fairy"],
+  icon: "/assets/mrmime.png",
+  coords: [48.8867, 2.3431],
+  habitat: ["Mr. Mime thrive in Paris’s busy squares and boulevards, blending in with street performers so well that tourists often mistake them for humans in costume. In Montmartre especially, they hold invisible walls in the air, pretending to be part of the act until an unsuspecting passerby bumps into them and realizes the wall was real. Locals joke that Mr. Mime doesn’t work for applause — it works for tips, following anyone stingy with coins until they finally pay up. In modern Paris, spotting one is almost a rite of passage; the city feels incomplete without a Mr. Mime waiting to box you in on a cobblestone street."],
+  region: ["Paris, France (Montmartre District)"],
+},
+{
+  id: 6,
+  name: "Charizard",
+  types: ["Fire", "Flying"],
+  icon: "/assets/charizard.png",
+  coords: [35.3622, 138.7300],
+  habitat: ["Charizard settle on the ridges of Mt. Fuji, where thin air and rising thermals let them soar for hours without landing. Prideful to a fault, they pick the tallest peaks not just for warmth but for visibility — it’s not enough to live, they have to be *seen*. In the past, villagers told stories of fiery shadows crossing the moon and took it as a warning of eruptions. In modern Japan, hikers sometimes glimpse them circling above sunrise climbs, wings flashing in the first light. They don’t hide in caves like dragons of legend; they own the skyline, occasionally swooping low to challenge helicopters or chase jets as if daring the machines to keep up. For Charizard, the mountain isn’t just home — it’s a stage."],
+  region: ["Mt. Fuji, Japan"],
+},
+{
+  id: 9,
+  name: "Blastoise",
+  types: ["Water"],
+  icon: "/assets/blastoise.png",
+  coords: [45.4408, 12.3155], // Venice, Italy
+  habitat: ["Blastoise treat the canals of Venice like their personal battleground and playground. Tourists think of them as mascots, but gondoliers know better — a Blastoise blasting its water cannons can rock a whole boat if it’s in the mood. Protective by nature, they’ll scare off anyone littering in the canals or splashing too close to children, but they also love showing off by spraying arches of water over passing ferries. Locals joke that Venice doesn’t need fountains because Blastoise provide them daily. In the anime they stood firm as tanks; in modern life they’ve become lifeguards, pranksters, and hydraulic showmen rolled into one."],
+  region: ["Venice, Italy"],
+},
+{
+  id: 8,
+  name: "Wartortle",
+  types: ["Water"],
+  icon: "/assets/wartortle.png",
+  coords: [35.0954, 135.7480], // Lake Biwa, Japan
+  habitat: ["Wartortle hang around deep lakes and temple ponds, where locals once thought their long, fluffy tails marked them as guardians of long life. In truth, they’re rowdy little show-offs — darting circles around boats, splashing tourists, and pretending to be Blastoise-in-training. They’ll challenge fishermen by tugging at nets, then vanish in a swirl of bubbles, only to pop back up minutes later grinning. In modern Japan, Wartortle are equal parts pranksters and mascots at lakeside festivals, often seen sunning themselves on shrine steps like they own the place. They carry an aura of wisdom thanks to old legends, but anyone who’s actually dealt with one knows they’re more teenage troublemaker than sage turtle."],
+  region: ["Lake Biwa, Japan"],
 },
 
 
