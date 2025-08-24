@@ -351,6 +351,51 @@ const POKEMON = [
   habitat: ["In Pyramiden, an abandoned Soviet mining town on the Arctic island of Svalbard, the sun sets in November and does not rise again for months. Locals say this is where Darkrai lingers, moving between the silence of empty apartment blocks and the frozen streets where statues of old workers still stand. In the endless polar night, sleep becomes fragile; explorers describe nights of shallow rest broken by jolts of panic, as if someone whispered their name in the dark. Dreams blur with waking — footsteps echo in hallways, shadows stretch across walls without a light source, and time itself feels unreliable. Some return from expeditions with missing hours they cannot account for. Scientists dismiss it as isolation sickness, but others believe Darkrai feeds here, weaving nightmares that leave scars long after the dreamer wakes. Radiation meters and compasses sometimes falter in its presence, spinning or going dead, as though reality itself dips out. Pyramiden’s folklore now calls it 'the town that never wakes.' For many, the fear is not that Darkrai causes nightmares — but that in the dark months, you may never realize when you’ve left reality and slipped into one."],
   region: ["Pyramiden, Svalbard (Norwegian Arctic)"],
 },
+{
+  id: 488,
+  name: "Cresselia",
+  types: ["Psychic"],
+  icon: "/assets/cresselia.png",
+  coords: [69.2167, -51.1000], // Ilulissat Icefjord, Greenland
+  habitat: ["Cresselia glides silently over Greenland’s Ilulissat Icefjord, a place where the night sky burns with shifting aurora and glaciers echo with the sound of calving ice. Travelers who camp beneath the northern lights often speak of dreams so vivid they blur with waking life — visions of home, loved ones, or futures that feel achingly real. Local hunters describe waking from a night in -40°C with warmth still on their skin, as though the cold had forgotten them. Inuit folklore once told of moon-spirits that descended on beams of light to bless hunters and heal fevers; modern stories tie those legends to Cresselia, the 'Dream Swan' of the Arctic sky. Where Darkrai feeds on fear, Cresselia is said to weave serenity — bending nightmares into quiet visions that guide people safely through the harshest nights. Scientists dismiss it as the psychological comfort of the aurora, but in villages along the fjord, families still leave carved moon talismans on the ice, believing Cresselia watches over anyone who dares to dream so far north."],
+  region: ["Ilulissat Icefjord, Greenland"],
+},
+{
+  id: 607,
+  name: "Litwick",
+  types: ["Ghost", "Fire"],
+  icon: "/assets/litwick.png",
+  coords: [42.5195, -70.8967], // Salem, Massachusetts
+  habitat: ["Litwick gather in old towns heavy with ghost stories, flickering innocently in windows or guiding travelers down side streets. In Salem, their tiny flames are often mistaken for lanterns or candles in historic houses, but folklore warns that following one too long leaves you weak and drowsy, your energy feeding the flame. During October, tourists report Litwick bobbing in graveyards, their light dancing among jack-o’-lanterns. Locals say the trick is simple: if the candlelight feels too cold, don’t follow it — it’s not a candle at all."],
+  region: ["Salem, Massachusetts, USA"],
+},
+{
+  id: 608,
+  name: "Lampent",
+  types: ["Ghost", "Fire"],
+  icon: "/assets/lampent.png",
+  coords: [50.0755, 14.4378], // Prague, Czech Republic
+  habitat: ["Lampent drift through Europe’s oldest cities, drawn to doorways where death has lingered. In Prague, with its winding Gothic alleys and centuries of plague history, they are said to hover outside hospitals and cemeteries, their blue flames swaying like funeral lanterns. Old tales describe them as omens — if you see one hovering by your window, someone in the house will not wake by morning. Modern tourists sometimes spot strange flames in castle chandeliers or in the Astronomical Clock tower at night, swaying with no draft. Locals keep their distance, calling them 'the lights that choose when to burn.'"],
+  region: ["Prague, Czech Republic"],
+},
+{
+  id: 609,
+  name: "Chandelure",
+  types: ["Ghost", "Fire"],
+  icon: "/assets/chandelure.png",
+  coords: [48.8338, 2.3324], // Paris Catacombs
+  habitat: ["Chandelure are said to haunt the Paris Catacombs, where miles of tunnels hold the remains of millions. Urban explorers tell of chandeliers igniting in bone-lined chambers with no source of flame, their violet fire casting shadows that move out of sync with the living. Legends say each flame burns with the soul of someone lost in the dark, flickering brighter when new wanderers stray too far from their group. Some explorers report feeling light-headed, as if their spirit itself is being tugged toward the fire. While Litwick trick the unwary and Lampent linger as omens, Chandelure reigns as the collector — a reminder that in the catacombs, the light is never your friend."],
+  region: ["Paris Catacombs, France"],
+},
+{
+  id: 373,
+  name: "Salamence",
+  types: ["Dragon", "Flying"],
+  icon: "/assets/salamence.png",
+  coords: [47.5812, 10.7498], // Bavarian Alps, Germany
+  habitat: ["Salamence haunt the skies of the Bavarian Alps, soaring between peaks where storms gather. Their legend mirrors old European dragon tales — shepherds once spoke of shadows that split the clouds and melted the snowpack with fire, mistaking Salamence for the same monsters painted on medieval maps. They are not graceful fliers; their wings were born from rage and desire, and they cut through the air with a violence that rattles windows in mountain villages. Pilots in training sometimes report being chased by 'something huge' above the ridgelines, and locals still say avalanches can be blamed on Salamence roaring overhead. In modern times, hikers treat sightings like omens: if you hear the air shatter with a sudden boom, it means a Salamence has taken to the sky, and it will not land until its fury is spent."],
+  region: ["Bavarian Alps, Germany"],
+},
 
 {
   id: 108,
