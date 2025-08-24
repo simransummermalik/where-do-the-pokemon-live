@@ -51,6 +51,22 @@ const POKEMON = [
     region:["Great Smoky Mountains (Tennessee / North Carolina, USA)"]
 
     },
+    {id:14,
+    types:["Bug","Poison"],
+    name:"Kakuna",
+    icon:"/assets/kakuna.png",
+    coords:[35.6850,-83.5450],
+    habitat:["Kakuna attaches itself to tree trunks and branches, blending in with bark and moss while it prepares to emerge as Beedrill. It hardly moves, much like the real-world pupal stage of bees and wasps, where the insect is sealed inside a hardened case while its body restructures for adulthood. In forests like the Smokies, this strategy offers camouflage and protection in an ecosystem filled with birds, reptiles, and mammals that would otherwise eat them. In entomology, this stage is called the pupa. Wasps, hornets, and bees all go through complete metamorphosis: egg → larva → pupa → adult. During the pupal stage, their bodies literally dissolve and rebuild, forming wings, stingers, and new organs. Kakuna reflects this real-world phenomenon almost perfectly, only exaggerated with its iconic golden shell and tiny defensive stinger. Forest pupae often appear like dried leaves or pods clinging to trees, and historically, naturalists in Appalachia described the forests as “alive with cocoons” during summer months. This is exactly where Kakuna would fit in — silent, fragile, but hiding the transformation into something far more dangerous."],
+    region:["Great Smoky Mountains (Tennessee / North Carolina, USA)"]
+    },
+    {id:15,
+    types:["Bug","Poison"],
+    name: "Beedrill",
+    icon:"assets/beedrill.png",
+    coords:[35.6900, -83.5600],
+    habitat:["Beedrill lives in forest colonies and is highly territorial, attacking intruders with fast, repeated stings much like real hornets and wasps. Unlike honeybees, which sting once, hornets can sting multiple times, and Beedrill reflects this with its three oversized stingers and coordinated swarm tactics. The Smokies give it perfect cover for building nests and feeding on flowers and smaller insects, and hikers in the region would likely fear stumbling into a Beedrill hive just as they do with wasp nests in real life. Folklore across Appalachia often warned of angry swarms in the woods, and Japanese culture reveres the giant hornet as both feared and respected—parallels that make Beedrill feel like a natural extension of how people have always viewed stinging insects."],
+    region:["Great Smoky Mountains (Tennessee / North Carolina, USA)"]
+    },
     {id:130,
      name:"Gyarados",
      types: ["Water","Flying"],
