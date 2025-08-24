@@ -428,16 +428,44 @@ const POKEMON = [
   name: "Totodile",
   types: ["Water"],
   icon: "/assets/totodile.png",
-  coords: [-19.1667, 22.9000], // Okavango Delta, Botswana
+  coords: [-19.1670, 22.9100], // Okavango Delta, Botswana
   habitat: ["Totodile splash through the Okavango’s winding channels, always laughing louder than they bite. Safari guides tell stories of them sneaking up on canoes, rocking the boats just enough to make tourists scream before vanishing under the reeds. Local fishermen say if your catch goes missing, it wasn’t a croc—it was a Totodile with a grin full of teeth, proud of its prank. Mischievous but rarely mean, they’re the swamp’s comedians: noisy, chaotic, and somehow beloved, their toothy cackles echoing like living mischief."],
   region: ["Okavango Delta, Botswana"],
 },
+{
+  id: 928,
+  name: "Smoliv",
+  types: ["Grass","Normal"],
+  icon: "/assets/smoliv.png",
+  coords: [37.9838, 23.7275], // Athens, Greece
+  habitat: ["Smoliv sprout nervously in sunlit olive groves, clutching drops of oil like little water bottles against the dry heat. Farmers say they’re shy and easily startled, freezing up like statues whenever strangers pass by. In old stories, travelers would leave breadcrumbs near Smoliv plants, believing that feeding one would bring good harvest luck. Today, they’re sometimes spotted peeking out between gnarled olive roots, frowning as cicadas screech around them, too anxious to join the noise."],
+  region: ["Olive groves of Greece"],
+},
+{
+  id: 929,
+  name: "Dolliv",
+  types: ["Grass","Normal"],
+  icon: "/assets/dolliv.png",
+  coords: [41.9028, 12.4964], // Rome, Italy
+  habitat: ["Dolliv live at the heart of Mediterranean orchards, moving with slow grace between rows of olive trees. Folklore paints them as caretakers, blessing fields with gentle hands and soothing cries that calm restless animals. Farmers once believed Dolliv’s presence guaranteed good oil—if you saw one among your branches, the harvest would be rich. Even today, locals say Dolliv wander vineyard edges at dusk, cradling olives in their leafy arms and humming softly, almost like prayers for the land."],
+  region: ["Countryside of central Italy"],
+},
+{
+  id: 930,
+  name: "Arboliva",
+  types: ["Grass","Normal"],
+  icon: "/assets/arboliva.png",
+  coords: [40.4168, -3.7038], // Andalusia, Spain
+  habitat: ["Arboliva are towering guardians of Spain’s endless olive orchards, their branches heavy with fruit that gleam like jewels in the sun. Old farmers treated them as spirits of the land, protectors of groves stretching back generations. Legends say that when Arboliva spread their arms, whole fields bloom in unison, the air sweet with pollen and promise. In modern life, they’re honored as symbols of longevity—appearing in local tales of olive oil festivals, where people imagine a towering Arboliva watching over the press, ensuring the harvest flows as it has for centuries."],
+  region: ["Andalusia, Spain"],
+},
+
 {
   id: 159,
   name: "Croconaw",
   types: ["Water"],
   icon: "/assets/croconaw.png",
-  coords: [-19.1667, 22.9000], // Same delta, rowdier role
+  coords: [-19.1690, 22.9500], // Same delta, rowdier role
   habitat: ["Croconaw are Totodile grown bigger, louder, and far more of a nuisance. With jaws that can actually snap paddles and tails strong enough to flip dugout canoes, they’re the rowdy teenagers of the swamp. Locals say you can always tell when a Croconaw is nearby because the hippos get angry first—no animal likes sharing the water with one. Fishermen call them ‘net thieves,’ since they’ll charge through traps and steal whole hauls just for the fun of it, splashing away like they won a contest no one else was playing."],
   region: ["Okavango Delta, Botswana"],
 },
@@ -445,8 +473,8 @@ const POKEMON = [
   id: 160,
   name: "Feraligatr",
   types: ["Water"],
-  icon: "/assets/feraligatr.png",
-  coords: [-19.1667, 22.9000], // Apex predator of the same region
+  icon: "/assets/Feraligatr.png",
+  coords: [-19.1670, 22.9200], // Apex predator of the same region
   habitat: ["Feraligatr are the kings of the delta, enormous, scarred, and feared by anyone who dares drift too close. Where Totodile prank and Croconaw brawl, Feraligatr rules. Guides speak of them following boats in eerie silence, eyes just above the waterline until they suddenly erupt in a wave that shakes the reeds. Villagers still tell stories of the 'Blue King,' a legendary Feraligatr said to block whole channels with its bulk, its roar rolling over the swamp like thunder. While the smaller ones are tolerated, even respected for keeping crocodiles away, a Feraligatr sighting stops the river traffic cold. The swamp listens when the king moves."],
   region: ["Okavango Delta, Botswana"],
 },
