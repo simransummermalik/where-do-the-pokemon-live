@@ -414,6 +414,15 @@ const POKEMON = [
   habitat: ["Meditite settle in Himalayan foothills and yoga towns like Rishikesh, where they perch on rocks or slip into meditation circles with tourists. At first they look perfectly still, eyes closed, hands folded — but locals know they’re faking half the time. Travelers say if you watch closely, a Meditite will crack open one eye to peek at the snack bag, or break its pose with an enormous stomach growl. Guides joke that it’s less 'enlightened sage' and more 'freeloader,' waiting for offerings of fruit after long retreats. In folklore, they were seen as spirits testing discipline: if you can ignore the urge to laugh when a Meditite topples over mid-meditation, maybe you’re truly balanced. Modern life treats them as mascots of yoga culture — serene in photos, but absolute menaces once the chanting stops."],
   region: ["Rishikesh, India"],
 },
+{
+  id: 151,
+  name: "Mew",
+  types: ["Psychic"],
+  icon: "/assets/mew.png",
+  coords: [-2.5000, -60.0000], // Central Amazon, near Manaus but not overlapping Ekans
+  habitat: ["Mew drifts like a shadow of curiosity through the Amazon rainforest, flitting from treetops to riverbanks with childlike energy. Scientists chase it for its genetics, calling it the origin of all Pokémon, but in the forest it feels more like a trickster spirit than a god. Villagers tell of travelers who vanished for days only to return safely, guided by laughter that echoed through the vines. Its personality is playful — it balances on branches upside-down, flicks fruit into canoes, or teases capybaras by tugging their ears before vanishing. It loves puzzles, often rearranging human tools or swapping objects around camps just to watch confusion. Explorers describe hazy encounters: a pink blur in their photographs, or the feeling of being nudged awake just before wandering jaguars passed too close. Despite its power, Mew has no malice; it seems to thrive on curiosity itself, more guardian than predator, testing those who enter its jungle. The Amazon’s staggering biodiversity feels like an extension of Mew — every new sound in the canopy, every strange insect at night, a reminder that somewhere above, Mew is watching, laughing softly, and keeping its secrets safe."],
+  region: ["Amazon Rainforest (Brazil)"],
+},
 
 {
   id: 108,
