@@ -423,6 +423,35 @@ const POKEMON = [
   habitat: ["Mew drifts like a shadow of curiosity through the Amazon rainforest, flitting from treetops to riverbanks with childlike energy. Scientists chase it for its genetics, calling it the origin of all Pokémon, but in the forest it feels more like a trickster spirit than a god. Villagers tell of travelers who vanished for days only to return safely, guided by laughter that echoed through the vines. Its personality is playful — it balances on branches upside-down, flicks fruit into canoes, or teases capybaras by tugging their ears before vanishing. It loves puzzles, often rearranging human tools or swapping objects around camps just to watch confusion. Explorers describe hazy encounters: a pink blur in their photographs, or the feeling of being nudged awake just before wandering jaguars passed too close. Despite its power, Mew has no malice; it seems to thrive on curiosity itself, more guardian than predator, testing those who enter its jungle. The Amazon’s staggering biodiversity feels like an extension of Mew — every new sound in the canopy, every strange insect at night, a reminder that somewhere above, Mew is watching, laughing softly, and keeping its secrets safe."],
   region: ["Amazon Rainforest (Brazil)"],
 },
+{
+  id: 158,
+  name: "Totodile",
+  types: ["Water"],
+  icon: "/assets/totodile.png",
+  coords: [-19.1667, 22.9000], // Okavango Delta, Botswana
+  habitat: ["Totodile splash through the Okavango’s winding channels, always laughing louder than they bite. Safari guides tell stories of them sneaking up on canoes, rocking the boats just enough to make tourists scream before vanishing under the reeds. Local fishermen say if your catch goes missing, it wasn’t a croc—it was a Totodile with a grin full of teeth, proud of its prank. Mischievous but rarely mean, they’re the swamp’s comedians: noisy, chaotic, and somehow beloved, their toothy cackles echoing like living mischief."],
+  region: ["Okavango Delta, Botswana"],
+},
+{
+  id: 159,
+  name: "Croconaw",
+  types: ["Water"],
+  icon: "/assets/croconaw.png",
+  coords: [-19.1667, 22.9000], // Same delta, rowdier role
+  habitat: ["Croconaw are Totodile grown bigger, louder, and far more of a nuisance. With jaws that can actually snap paddles and tails strong enough to flip dugout canoes, they’re the rowdy teenagers of the swamp. Locals say you can always tell when a Croconaw is nearby because the hippos get angry first—no animal likes sharing the water with one. Fishermen call them ‘net thieves,’ since they’ll charge through traps and steal whole hauls just for the fun of it, splashing away like they won a contest no one else was playing."],
+  region: ["Okavango Delta, Botswana"],
+},
+{
+  id: 160,
+  name: "Feraligatr",
+  types: ["Water"],
+  icon: "/assets/feraligatr.png",
+  coords: [-19.1667, 22.9000], // Apex predator of the same region
+  habitat: ["Feraligatr are the kings of the delta, enormous, scarred, and feared by anyone who dares drift too close. Where Totodile prank and Croconaw brawl, Feraligatr rules. Guides speak of them following boats in eerie silence, eyes just above the waterline until they suddenly erupt in a wave that shakes the reeds. Villagers still tell stories of the 'Blue King,' a legendary Feraligatr said to block whole channels with its bulk, its roar rolling over the swamp like thunder. While the smaller ones are tolerated, even respected for keeping crocodiles away, a Feraligatr sighting stops the river traffic cold. The swamp listens when the king moves."],
+  region: ["Okavango Delta, Botswana"],
+},
+
+
 
 {
   id: 108,
