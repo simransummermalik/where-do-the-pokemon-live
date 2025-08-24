@@ -2,7 +2,6 @@ import React, { useMemo, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import MarkerClusterGroup from "react-leaflet-cluster";
 
 // --- icon with image ---
 const makeIcon = (imagePath) =>
@@ -234,7 +233,105 @@ const POKEMON = [
   habitat: ["Bulbasaur spend their days like tiny retirees, waddling to sunny patches of grass to nap and occasionally shuffling over to hot springs where they sink in with a long sigh, vines draped over the rocks like a towel. Locals joke that Bulbasaur give off 'grandpa energy' — slow to get moving in the morning, grumbling when kids run too fast, but secretly delighted when someone sits beside them. In folklore, their bulbs were said to glow brightest in the steam, blessing anyone who bathed with them. In modern life, Bulbasaur happily lounge around parks and gardens, occasionally slipping into public hot springs like regulars who’ve been coming there for decades."],
   region: ["Yakushima Island, Japan"],
 },
-
+{
+  id: 143,
+  name: "Snorlax",
+  types: ["Normal"],
+  icon: "/assets/snorlax.png",
+  coords: [39.7391, -75.5398], // Wilmington, Delaware
+  habitat: ["Snorlax thrives in Delaware because the state moves at exactly its pace: slow, quiet, and uneventful enough for a nap that lasts all week. Locals say nothing really happens here — which makes it perfect for a Pokémon that only wakes up to eat. You’ll find Snorlax stretched across backroads, sunning itself by the river, or dozing in the middle of town squares where nobody bothers to move it. Children climb its belly like a bouncy castle, fishermen sit beside it while waiting for a bite, and commuters just sigh and drive around. In a place known for being small, calm, and a little boring, Snorlax has become Delaware’s true mascot — a giant reminder that there’s no rush when the whole state feels like nap time."],
+  region: ["Delaware, USA"],
+},
+{
+  id: 39,
+  name: "Jigglypuff",
+  types: ["Normal", "Fairy"],
+  icon: "/assets/jigglypuff.png",
+  coords: [36.1627, -86.7816], // Nashville, Tennessee
+  habitat: ["Jigglypuff loves music more than anything, which makes Nashville its perfect home. On late nights downtown, you can spot one waddling into crowded bars, climbing onto a stool, and belting out its lullaby — much to the frustration of every band it interrupts. Whole streets have been lulled into naps mid-song, and Jigglypuff has been known to doodle on the faces of anyone who dared fall asleep during its performance. Despite the mischief, locals treat it like a tiny diva: musicians leave out water bottles and snacks by the stage, and tourists whisper about catching a 'surprise show' if they’re lucky. In Music City, Jigglypuff isn’t just a Pokémon — it’s a headliner."],
+  region: ["Nashville, Tennessee, USA"],
+},
+{
+  id: 484,
+  name: "Palkia",
+  types: ["Water", "Dragon"],
+  icon: "/assets/palkia.png",
+  coords: [29.5597, -95.0831], // Johnson Space Center, Houston
+  habitat: ["Palkia embodies space itself, and in the modern world, nowhere feels more like its domain than NASA. Engineers at the Johnson Space Center whisper that strange distortions ripple across telescope feeds at night — flashes of light where no star should be, shadows bending where the sky should be empty. Astronauts preparing for launch sometimes report hearing low, echoing roars through the static of comms, like something vast breathing just beyond the atmosphere. In folklore, Palkia was painted as a dragon whose steps opened the heavens; today, NASA staff joke that if a rocket disappears too smoothly into orbit, it might not just be physics — it might be Palkia making sure space is ready to hold it."],
+  region: ["NASA Johnson Space Center, Houston, Texas, USA"],
+},
+{
+  id: 483,
+  name: "Dialga",
+  types: ["Steel", "Dragon"],
+  icon: "/assets/dialga.png",
+  coords: [46.2331, 6.0550], // CERN, Switzerland
+  habitat: ["Dialga governs time, and scientists at CERN often speak half-seriously of its shadow stretching across the Large Hadron Collider. Legends once claimed its roar could freeze moments forever, and modern researchers joke that if any clock on campus drifts, it’s Dialga resetting the rhythm. Security cameras around the LHC have occasionally recorded flickers — frames repeating, moments vanishing — that staff chalk up to glitches, though some whisper Dialga is watching, curious about humans daring to toy with spacetime. In old stories, Dialga was feared for stopping harvests or hastening decay; at CERN, it feels less like a threat and more like a reminder: every experiment runs only because time itself allows it."],
+  region: ["CERN, Geneva, Switzerland"],
+},
+{
+  id: 52,
+  name: "Meowth",
+  types: ["Normal"],
+  icon: "/assets/meowth.png",
+  coords: [36.1699, -115.1398], // Las Vegas, Nevada
+  habitat: ["Meowth thrive under neon lights, slipping in and out of casinos along the Las Vegas Strip. They’re infamous for pawing at slot machines, batting coins across hotel lobbies, and vanishing into alleyways with chips clinking in their claws. Locals swear that a Meowth sighting before a game is a sign of luck — though whether it’s good or bad depends on how many of your coins it decides to steal. At night, they can be seen perched on marquees and rooftops, eyes glowing gold under flashing billboards, as if the whole city was built for them. In Vegas, Meowth aren’t pests — they’re the Strip’s real high-rollers."],
+  region: ["Las Vegas, Nevada, USA"],
+},
+{
+  id: 132,
+  name: "Ditto",
+  types: ["Normal"],
+  icon: "/assets/ditto.png",
+  coords: [34.0928, -118.3287], // Hollywood, California
+  habitat: ["Ditto fit perfectly in Hollywood, the city of constant transformation. On studio lots, they’ve been spotted mimicking actors mid-scene, blending so well that crews don’t realize until the script goes off the rails. Paparazzi whisper about celebrity sightings that turn out to be Ditto imposters, and directors half-jokingly call them the cheapest special effects in town. Locals say every red carpet has at least one Ditto slipping through, trying on different faces just for fun. In Hollywood, Ditto aren’t just Pokémon — they’re the ultimate actors, living mirrors of a city built on performance."],
+  region: ["Hollywood, California, USA"],
+},
+{
+  id: 54,
+  name: "Psyduck",
+  types: ["Water"],
+  icon: "/assets/psyduck.png",
+  coords: [35.6812, 139.7671], // Tokyo Station
+  habitat: ["Psyduck are a common (and often chaotic) sight on Tokyo’s crowded subway lines, clutching their heads as the noise and rush hour crowds give them splitting headaches. Conductors groan when a Psyduck waddles on board, because within minutes the train car is filled with confused passengers, luggage floating, and lights flickering as Psyduck’s stress spills out as uncontrolled psychic bursts. Despite the chaos, locals find them oddly endearing — commuters even joke that a delayed train just means a Psyduck rode that morning. Strangely enough, some Psyduck sneak out of the city on weekends, spotted lounging in mountain hot springs beside Bulbasaur, both of them soaking like old men escaping the world. City chaos by day, grandpa spa retreat by night — that’s Psyduck’s Tokyo life."],
+  region: ["Tokyo, Japan"],
+},
+{
+  id: 53,
+  name: "Persian",
+  types: ["Normal"],
+  icon: "/assets/persian.png",
+  coords: [40.7736, -73.9566], // Upper East Side, Manhattan, NYC
+  habitat: ["Persian are the aristocrats of the Pokémon world, gliding through city streets with silent paws and a jewel that glints like stolen treasure. In New York, they’re most at home in penthouses overlooking Central Park, pampered by the wealthy but just as often slipping into the night to hunt or prowl. Unlike the scrappy Meowth of Las Vegas, Persian operate like mob bosses — graceful, calculating, and quick to bare claws if anyone disrespects them. In folklore, their glowing foreheads were said to ward off misfortune, though in modern life they’re better known for appearing in tabloids when someone’s jewelry heist goes unsolved. Elegant, dangerous, and untouchable — Persian doesn’t beg for attention, it commands it."],
+  region: ["New York City, USA"],
+},
+{
+  id: 108,
+  name: "Lickitung",
+  types: ["Normal"],
+  icon: "/assets/lickitung.png",
+  coords: [40.5740, -73.9850], // Coney Island, Brooklyn
+  habitat: ["Lickitung treats Coney Island like an endless tasting menu: it waddles the boardwalk licking everything it shouldn’t—railing, signage, the side of the roller coaster—before zeroing in on funnel cakes, hot-dog stands, and dripping cones. Vendors keep a stack of napkins just for it; kids dare each other to hold out a pretzel and see how fast it vanishes; lifeguards swear it can taste salt on the wind and beeline to the beach before anyone says 'surf’s up.' Its tongue is a built-in critic—sticky and unstoppable—so on summer nights you’ll hear the usual boardwalk noise plus one unmistakable sound: a delighted slurp followed by a chorus of 'Hey! Not the banner!'" ],
+  region: ["Coney Island, Brooklyn, New York, USA"],
+},
+{
+  id: 359,
+  name: "Absol",
+  types: ["Dark"],
+  icon: "/assets/absol.png",
+  coords: [27.9878, 86.9250], // Mount Everest region, Nepal
+  habitat: ["Absol has long been seen as a wandering omen in the Himalayas, padding silently across ridgelines just before avalanches, landslides, or storms strike. Locals never blame it for disaster—rather, they believe it warns those wise enough to listen. Shepherds in mountain villages tell stories of Absol standing outside their doors the night before an earthquake, its white fur glowing faintly against the dark slopes. Climbers whisper of glimpses in the snow near base camps, a horned silhouette against blizzards that arrive hours later. In modern times, Absol has become both feared and revered: hikers leave offerings of food at shrines to appease it, hoping for safe passage. Whether myth or truth, the presence of Absol in the Himalayas makes even the bravest traveler tread carefully."],
+  region: ["Himalayas (Nepal/Tibet)"],
+},
+{
+  id: 392,
+  name: "Infernape",
+  types: ["Fire", "Fighting"],
+  icon: "/assets/infernape.png",
+  coords: [32.4420, 114.0290], // Mount Huaguo, Jiangsu Province, China
+  habitat: ["Infernape is tied to legend as much as to nature, and no place claims it better than Mount Huaguo — the mythical home of the Monkey King. Locals tell stories of flames flickering at the mountaintop during festivals, said to be Infernape sparring with its own shadow, training endlessly like its folkloric ancestor Sun Wukong. Agile, fierce, and proud, it leaps between cliffside trees, leaving scorch marks on stone where its feet land. Pilgrims say spotting Infernape mid-battle is a blessing — a sign of perseverance and strength — though few ever get close before the fire and laughter vanish into the peaks. In modern times, the mountain celebrates the connection: statues of Infernape appear alongside depictions of the Monkey King, a living reminder of myth carried forward in flame."],
+  region: ["Mount Huaguo, Jiangsu Province, China"],
+}
 ];
 
 const ALL_TYPES = [
@@ -303,8 +400,6 @@ export default function PokeHabitatExplorer() {
             />
 
             <FitBoundsOnData items={filtered} />
-
-            <MarkerClusterGroup chunkedLoading>
               {filtered.map(p => (
                 <Marker key={p.id} position={p.coords} icon={makeIcon(p.icon)}>
                   <Popup>
@@ -333,7 +428,6 @@ export default function PokeHabitatExplorer() {
                   </Popup>
                 </Marker>
               ))}
-            </MarkerClusterGroup>
           </MapContainer>
         </div>
 
