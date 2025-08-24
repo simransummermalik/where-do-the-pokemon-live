@@ -91,6 +91,22 @@ const POKEMON = [
      habitat:["Pidgeot was never really used as a messenger — it was simply too large to cage or transport like Pidgey. Instead, people noticed its speed and how it could cut through rough weather. Pilots reported seeing Pidgeot flying high above the Channel during missions, sometimes appearing just before the skies cleared. Its ability to steady itself in crosswinds (what trainers call Tangled Feet) made it stand out, almost like it knew how to read the air better than we could. These days, locals say if you spot one circling above Dover, it’s a sign the storm will break soon."],
      region:["England (White Cliffs of Dover, English Channel)"]
     },
+    {id:19,
+     types:["Normal"],
+     name: "Rattata",
+     icon:"assets/Rattata.png",
+     coords:[40.7128, -74.0060],
+     habitat:["Rattata lives anywhere people do, but nowhere are they more infamous than the alleys and subways of New York. They dart across streets and vanish into cracks with lightning speed, impossible to catch once they’ve chosen their escape path. Small but relentless, Rattata can survive on scraps, endure poisons, and adapt to nearly any trap set against them. Their numbers make them impossible to wipe out, and in a strange way, their persistence has earned them a kind of respect — a symbol of survival in a city that never slows down."]
+     ,region:["New York City, USA"]
+    },
+    {id:20,
+    types:["Normal"],
+    name:"Raticate",
+    icon:"assets/raticate.png",
+    coords:[40.7295, -73.9965],
+    habitat:["Where Rattata swarm in numbers, Raticate is the one that rules them. Bigger, heavier, and far more aggressive, it’s the boss of subway tunnels and waterfront warehouses. Its teeth never stop growing, strong enough to chew through wood, plastic, and even thin metal — which makes it both a menace and a survivor in an urban landscape. Raticate doesn’t scatter at the first sign of danger the way Rattata do; it stands its ground, baring its fangs until it decides to lunge. In modern New York, exterminators say if you find a Raticate nest, you’ve already lost the fight — the city belongs to them."],
+    region:["New York City, USA"]
+    },
     {id:130,
      name:"Gyarados",
      types: ["Water","Flying"],
