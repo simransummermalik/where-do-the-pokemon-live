@@ -156,7 +156,16 @@ const POKEMON = [
     coords: [35.6762, 139.6503],
     habitat:["Pikachu nest at the edges of forests and farmland, darting through branches and fields while charging their cheeks like living batteries. Old folktales said that groves with Pikachu were lightning magnets, and farmers swore those storms left behind “thunder berries” that the Pokémon would rush to collect, feeding on fruit singed by the strike. In modern Japan, they’ve become part of daily life — gathering near rural train stations where people leave food, slipping up poles to run along the wires, and vanishing into the treeline before anyone gets too close. Locals like to say Pikachu keep the current flowing, caretakers of the grid in their own mischievous way: when lights flicker back after a blackout, it’s often credited to a Pikachu giving the line a spark."],
     region:["Kyoto and surrounding areas"],
-  },
+  },{
+  id: 7,
+  name: "Squirtle",
+  types: ["Water"],
+  icon: "/assets/squirtle.png",
+  coords: [35.3180, 139.5467],
+  habitat: ["Squirtle live in clear rivers and lakes, their shells blending into stones as they lurk just under the surface. Old fishermen claimed a Squirtle’s glowing shell under moonlight could guide them safely back to shore — but the same stories warn of them flipping boats for fun if they felt ignored. On land, Squirtle are playful tricksters, spraying jets of water at farmers, tipping over buckets, or darting away just before you can grab them. In modern life, they’re magnets for kids at water parks and city fountains, diving in and out of the spray, splashing anyone nearby, and turning the whole place into a game. Mischievous but friendly, Squirtle thrive where laughter echoes — the more squeals and splashes, the happier they are."],
+  region: ["Kanagawa Prefecture, Japan"],
+},
+
   {
   id: 26,
   name: "Raichu",
@@ -175,6 +184,27 @@ const POKEMON = [
   habitat: ["Sandshrew are the desert’s little architects, carving burrows deep enough to outlast the midday sun and vanishing into the ground at the first sign of trouble. Their armor-like scales lock in water so well that old travelers swore spotting one meant an oasis was near. When threatened, they snap into tight, rolling spheres that barrel down dunes like living stones, too fast to catch and too tough to break. In modern times, they surface at dawn to forage before disappearing beneath the sand; ranchers say fresh Sandshrew tracks outside a homestead are a good omen—the land is solid, the ground won’t give way, and the desert has accepted you for another day."],
   region: ["Sonoran Desert (Arizona, USA)"],
 },
+{
+  id: 28,
+  name: "Sandslash",
+  types: ["Ground"],
+  icon: "/assets/sandslash.png",
+  coords: [31.9686, -99.9018],
+  habitat: ["Sandslash are the desert’s armored guardians, their backs bristling with spines sharp as cactus thorns and claws strong enough to split rock. Old frontier tales said a single Sandslash could turn an arroyo into a fortress overnight, carving trenches and leaving only a crown of spines showing above the sand. At night they patrol their territory with eerie silence, and ranchers swear their livestock sleeps more soundly when a Sandslash is near, as if predators can feel its presence in the dark. In modern times, desert engineers even credit them with stabilizing loose dunes—burrows woven so deep and wide they anchor the sand itself. To travelers, stumbling across fresh claw marks isn’t just a warning; it’s proof that something powerful is watching over the desert’s edge."],
+  region: ["Chihuahuan Desert (Texas, USA)"],
+},
+{
+  id: 29,
+  name: "Nidoran♀",
+  types: ["Poison"],
+  icon: "/assets/nidoran.png",
+  coords: [47.4979, 19.0402],
+  habitat: ["Nidoran♀ are small but cautious foragers, padding through tall grass at dawn to sniff out edible shoots and herbs. Their whiskers are finely tuned to wind and scent, letting them stay downwind of predators — a survival trick that farmers once mimicked to avoid wolves. In folklore they were seen as guardians of the garden, little blue bodies darting between rows of crops, their toxic quills keeping pests and thieves at bay. In modern life, Nidoran♀ are happiest when left to safe, green spaces — they’d spend hours in community gardens, nibbling herbs and watching children play, fiercely protective of any place that feels like home."],
+  region: ["Hungarian plains (near Budapest)"],
+
+
+
+},
 
   {
     id: 129,
@@ -186,16 +216,25 @@ const POKEMON = [
     region: "Global coastal + freshwater",
     appearances: ["Gen I onward"]
   },
-  {
-    id: 4,
-    name: "Charmander",
-    types: ["Fire"],
-    icon: "/assets/charmander.png",
-    coords: [19.4326, -99.1332],
-    habitat: "Warm rocky slopes, dormant volcanic foothills; shelters in caves at night.",
-    region: "Trans-Mexican Volcanic Belt (analogue)",
-    appearances: ["Gen I", "Sword/Shield"]
-  }
+{
+  id: 4,
+  name: "Charmander",
+  types: ["Fire"],
+  icon: "/assets/charmander.png",
+  coords: [35.3606, 138.7274],
+  habitat: ["Charmander make their dens on warm hillsides and volcanic slopes, soaking in heat from sun-baked stones and curling up beside cracks that vent soft steam. Old mountain villages saw them as hearth spirits, little fire-keepers who’d sneak into homes to sit by the stove and keep families warm through the night. Their tails never go out, so they move carefully — but not always carefully enough. Curious and eager to please, Charmander have a habit of singeing laundry lines, melting toys, or lighting candles just to see them glow. In modern life, they’re drawn to campsites, chimneys, and anywhere with a cozy fire. Around kids, they’re gentle and shy at first — but once they feel safe, they’ll join marshmallow roasts, wagging their tails like torches and laughing when sparks fly."],
+  region: ["Mt. Fuji foothills, Japan"],
+},
+{
+  id: 1,
+  name: "Bulbasaur",
+  types: ["Grass", "Poison"],
+  icon: "/assets/bulbasaur.png",
+  coords: [30.3859, 130.5571],
+  habitat: ["Bulbasaur spend their days like tiny retirees, waddling to sunny patches of grass to nap and occasionally shuffling over to hot springs where they sink in with a long sigh, vines draped over the rocks like a towel. Locals joke that Bulbasaur give off 'grandpa energy' — slow to get moving in the morning, grumbling when kids run too fast, but secretly delighted when someone sits beside them. In folklore, their bulbs were said to glow brightest in the steam, blessing anyone who bathed with them. In modern life, Bulbasaur happily lounge around parks and gardens, occasionally slipping into public hot springs like regulars who’ve been coming there for decades."],
+  region: ["Yakushima Island, Japan"],
+},
+
 ];
 
 const ALL_TYPES = [
