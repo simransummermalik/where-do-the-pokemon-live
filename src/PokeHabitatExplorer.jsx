@@ -67,6 +67,30 @@ const POKEMON = [
     habitat:["Beedrill lives in forest colonies and is highly territorial, attacking intruders with fast, repeated stings much like real hornets and wasps. Unlike honeybees, which sting once, hornets can sting multiple times, and Beedrill reflects this with its three oversized stingers and coordinated swarm tactics. The Smokies give it perfect cover for building nests and feeding on flowers and smaller insects, and hikers in the region would likely fear stumbling into a Beedrill hive just as they do with wasp nests in real life. Folklore across Appalachia often warned of angry swarms in the woods, and Japanese culture reveres the giant hornet as both feared and respected—parallels that make Beedrill feel like a natural extension of how people have always viewed stinging insects."],
     region:["Great Smoky Mountains (Tennessee / North Carolina, USA)"]
     },
+    {id:16,
+    types:["Normal","Flying"],
+    name: "Pidgey",
+    icon:"assets/pidgey.png",
+    coords:[51.5072, 0.1276],
+    habitat:["Pidgey is small, cautious, and often overlooked, but in times of need it proves surprisingly loyal. During wartime in England, messenger Pidgey flocks were used much like carrier pigeons, flying over long distances to deliver notes when no other communication was possible. Some were even “awarded medals” for their bravery, their timid nature set aside in the service of survival. Today, they are a common sight in city parks and rooftops, pecking at crumbs among sparrows and pigeons, but their legacy carries a quiet dignity."],
+    region:["England (London and surrounding countryside)"]
+    },
+    {id:17,
+     types:["Normal","Flying"],
+     name: "Pidgeotto",
+     icon:"assets/pidgeotto.png",
+     coords:[52.5200, 1.7300],
+     habitat:["Where Pidgey is timid and skittish, Pidgeotto has the confidence of a seasoned scout. In England’s wartime past, larger Pidgeotto were trusted to carry longer-distance messages across dangerous skies, often flying through storms or gunfire. Soldiers spoke of their sharp vision and endurance, able to cross open fields and farmland without faltering. Outside of war, they’re seen patrolling the countryside skies, fiercely defending their territory from intruders. They earned a reputation not just as messengers, but as guardians of their flocks."],
+     region:["England (Battlefields and Countryside)"]
+    },
+    {id:18,
+     types:["Normal","Flying"],
+     name: "Pidgeot",
+     icon:"assets/pidgeot.png",
+     coords:[51.1290, 1.3210],
+     habitat:["Pidgeot was never really used as a messenger — it was simply too large to cage or transport like Pidgey. Instead, people noticed its speed and how it could cut through rough weather. Pilots reported seeing Pidgeot flying high above the Channel during missions, sometimes appearing just before the skies cleared. Its ability to steady itself in crosswinds (what trainers call Tangled Feet) made it stand out, almost like it knew how to read the air better than we could. These days, locals say if you spot one circling above Dover, it’s a sign the storm will break soon."],
+     region:["England (White Cliffs of Dover, English Channel)"]
+    },
     {id:130,
      name:"Gyarados",
      types: ["Water","Flying"],
@@ -74,8 +98,6 @@ const POKEMON = [
      coords:[31.2400, 121.4900],
      habitat:["Magikarp is common in rivers, ponds, and harbors. Gyarados would logically appear in large connected waterways","In Pokémon lore, Gyarados is infamous for appearing after Magikarp are neglected or disturbed.","In real life Shanghai, rapid urbanization and heavy river use would easily “stress” Magikarp populations triggering Gyarados appearances.","Its temper and destructive force line up with stories of dragons and sea serpents in Chinese mythology, like the flooding river dragons of old folklore."],
      region:["Huangpu River near The Bund (central Shanghai)"]
-
-
     },
   {
     id: 25,
