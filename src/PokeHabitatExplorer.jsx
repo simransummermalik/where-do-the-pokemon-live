@@ -496,6 +496,34 @@ const POKEMON = [
   region: ["Harajuku (Tokyo, Japan)"],
 },
 {
+  id: 478,
+  name: "Froslass",
+  types: ["Ice","Ghost"],
+  icon: "/assets/froslass.png",
+  coords: [53.5587, 108.1650], // Lake Baikal, Siberia
+  habitat: ["Froslass is said to wander the frozen surface of Lake Baikal, her laughter echoing across the ice at night. In old Siberian tales, she is a spirit-woman who lures the lost with her beauty, only to leave them to the cold. Travelers whisper that if you see a pale figure waving on the horizon, it is never another person—it is Froslass calling. Scientists explain the sounds as Baikal’s ice shifting and cracking, but locals insist the high, sharp tones are her voice. Fishermen still leave offerings of bread or vodka on the shore, hoping she’ll spare them safe passage across the lake. Modern campers tell of waking to frost patterns on their tents shaped like hands, or of footsteps circling their camp while no one was there. Whether ghost or guardian, Froslass has become Baikal’s spirit: beautiful, dangerous, and impossible to ignore."],
+  region: ["Lake Baikal, Siberia, Russia"],
+},
+{
+  id: 190,
+  name: "Aipom",
+  types: ["Normal"],
+  icon: "/assets/aipom.png",
+  coords: [26.9124, 75.7873], // Jaipur, India
+  habitat: ["Aipom thrive in Jaipur’s temples and bustling bazaars, blending in with the real monkey troops that already rule the rooftops. Their tails are as quick as their hands, snatching fruit, sunglasses, or even wallets before scampering up carved stone walls. Vendors complain that Aipom will knock over entire stalls just to juggle mangoes in front of a crowd, while tourists often mistake them for trained performers until their phones go missing. In local folklore, they’re treated as prankster spirits — not dangerous, but impossible to outwit. Modern Jaipur sees them as part of the city’s chaos: noisy, cheeky, and always one step (or swing) ahead of anyone trying to catch them."],
+  region: ["Jaipur, Rajasthan, India"],
+},
+{
+  id: 272,
+  name: "Ludicolo",
+  types: ["Water","Grass"],
+  icon: "/assets/ludicolo.png",
+  coords: [48.1351, 11.5820], // Munich, Germany
+  habitat: ["Ludicolo are Oktoberfest legends, appearing whenever the brass bands start playing and beer mugs start clinking. They leap onto tables, dancing in rhythm with oom-pah music, splashing steins everywhere as the crowd roars with laughter. Locals insist the parties go better when a Ludicolo shows up, since their energy keeps the music fast and the spirits high. Bartenders grumble about lost barrels, but tourists adore them — snapping photos of the sombrero-topped Pokémon spinning in circles with strangers. Folklore says they’ve been around since the first beer halls, showing up wherever music, water, and celebration mix. In modern Munich, they’re less feared than welcomed: the life of the party, even if they always leave the floor sticky."],
+  region: ["Munich, Bavaria, Germany"],
+},
+
+{
   id: 159,
   name: "Croconaw",
   types: ["Water"],
