@@ -331,7 +331,45 @@ const POKEMON = [
   coords: [32.4420, 114.0290], // Mount Huaguo, Jiangsu Province, China
   habitat: ["Infernape is tied to legend as much as to nature, and no place claims it better than Mount Huaguo — the mythical home of the Monkey King. Locals tell stories of flames flickering at the mountaintop during festivals, said to be Infernape sparring with its own shadow, training endlessly like its folkloric ancestor Sun Wukong. Agile, fierce, and proud, it leaps between cliffside trees, leaving scorch marks on stone where its feet land. Pilgrims say spotting Infernape mid-battle is a blessing — a sign of perseverance and strength — though few ever get close before the fire and laughter vanish into the peaks. In modern times, the mountain celebrates the connection: statues of Infernape appear alongside depictions of the Monkey King, a living reminder of myth carried forward in flame."],
   region: ["Mount Huaguo, Jiangsu Province, China"],
-}
+},
+{
+  id: 68,
+  name: "Machamp",
+  types: ["Fighting"],
+  icon: "/assets/machamp.png",
+  coords: [33.9850, -118.4695], // Venice Beach, California
+  habitat: ["Machamp treat Venice Beach like their natural gym, strutting up and down Muscle Beach with four arms full of dumbbells. Tourists gather to watch them bench-press picnic tables, curl bicycles, and pose for photos in between sets. Locals swear Machamp flexes so hard it scares off the seagulls, clearing entire stretches of boardwalk in a single glare. Despite the showboating, they’re surprisingly social — spotting one spotting a human lifter is considered a rite of passage. In modern life, Machamp are Venice legends: workout partners, unofficial lifeguards, and the loudest hype-men on the sand."],
+  region: ["Venice Beach, California, USA"],
+},
+{
+  id: 501,
+  name: "Oshawott",
+  types: ["Water"],
+  icon: "/assets/oshawott.png",
+  coords: [35.69,139.78],// Tokyo
+  habitat: ["Oshawott thinks it’s the hero of the group — constantly striking sword poses with its scalchop, bragging about its 'skills,' and then immediately tripping over its own feet. It insists on being the cool one, but usually ends up face-first in the harbor while everyone else laughs. Locals see Oshawott as a lovable try-hard: always dramatic, always soaked, and always ready to start another round of 'look at me!' no matter how many times it fails."],
+  region: ["Tokyo, Japan"],
+},
+{
+  id: 393,
+  name: "Piplup",
+  types: ["Water"],
+  icon: "/assets/piplup.png",
+  coords: [35.7100, 139.76], // Tokyo Skytree area, a little offset
+  habitat: ["Piplup is convinced it’s royalty, waddling around with its head held high and refusing to take orders from anyone — especially Oshawott. It bosses the others around, gets furious when ignored, and dramatically storms off… only to come back five minutes later because it doesn’t like being left out. Its rivalry with Oshawott is constant, with endless splashing contests and ego battles, while Pachirisu usually makes things worse by egging them both on. Despite its diva act, everyone knows Piplup secretly loves the chaos."],
+  region: ["Tokyo, Japan"],
+},
+{
+  id: 417,
+  name: "Pachirisu",
+  types: ["Electric"],
+  icon: "/assets/pachirisu.png",
+  coords: [35.7000, 139.7700], // Ueno Park, close by
+  habitat: ["Pachirisu is the chaos engine of the trio — a sugar-high gremlin that zooms around, steals everyone’s food, and zaps Oshawott mid-pose just to watch it fall over. It lives for stirring up trouble: one second it’s sitting innocently, the next it’s vanished with Piplup’s snack or tangled everyone in its tail. Pachirisu is the glue that keeps the squabbling going, because without it, Oshawott and Piplup might actually calm down. Modern sightings usually involve three drenched, screaming Pokémon and one very smug electric squirrel in the middle."],
+  region: ["Tokyo, Japan"],
+},
+
+
 ];
 
 const ALL_TYPES = [
