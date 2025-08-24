@@ -405,6 +405,15 @@ const POKEMON = [
   habitat: ["Koffing drift lazily through the smoggiest corners of Los Angeles, floating between traffic jams on the I-405 like balloons that nobody asked for. They thrive on exhaust and factory fumes, expanding happily the worse the air gets. Locals joke that every bad smog day is just 'Koffing season,' and more than one yoga studio has had classes interrupted when one floated inside and popped. They’re pranksters too — slipping into movie sets, leaking just enough gas to ruin takes, or bursting over food trucks for a free laugh. In the old games, they were symbols of pollution; in modern life, they’re basically mascots for L.A. traffic: annoying, unavoidable, and somehow kind of iconic."],
   region: ["Los Angeles, California, USA"],
 },
+{
+  id: 307,
+  name: "Meditite",
+  types: ["Fighting", "Psychic"],
+  icon: "/assets/meditite.png",
+  coords: [30.1033, 78.2948], // Rishikesh, India
+  habitat: ["Meditite settle in Himalayan foothills and yoga towns like Rishikesh, where they perch on rocks or slip into meditation circles with tourists. At first they look perfectly still, eyes closed, hands folded — but locals know they’re faking half the time. Travelers say if you watch closely, a Meditite will crack open one eye to peek at the snack bag, or break its pose with an enormous stomach growl. Guides joke that it’s less 'enlightened sage' and more 'freeloader,' waiting for offerings of fruit after long retreats. In folklore, they were seen as spirits testing discipline: if you can ignore the urge to laugh when a Meditite topples over mid-meditation, maybe you’re truly balanced. Modern life treats them as mascots of yoga culture — serene in photos, but absolute menaces once the chanting stops."],
+  region: ["Rishikesh, India"],
+},
 
 {
   id: 108,
