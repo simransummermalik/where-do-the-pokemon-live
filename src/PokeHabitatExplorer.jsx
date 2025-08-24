@@ -459,7 +459,42 @@ const POKEMON = [
   habitat: ["Arboliva are towering guardians of Spain’s endless olive orchards, their branches heavy with fruit that gleam like jewels in the sun. Old farmers treated them as spirits of the land, protectors of groves stretching back generations. Legends say that when Arboliva spread their arms, whole fields bloom in unison, the air sweet with pollen and promise. In modern life, they’re honored as symbols of longevity—appearing in local tales of olive oil festivals, where people imagine a towering Arboliva watching over the press, ensuring the harvest flows as it has for centuries."],
   region: ["Andalusia, Spain"],
 },
-
+{
+  id: 444,
+  name: "Gabite",
+  types: ["Dragon","Ground"],
+  icon: "/assets/gabite.png",
+  coords: [27.9881, 86.9250], // Himalayas (Mount Everest region, Nepal/Tibet border)
+  habitat: ["Gabite are notorious for vanishing into mountain caverns, where they hoard anything that sparkles — raw crystals, river-polished stones, even the occasional hiker’s headlamp if they leave it unattended. Legends from Himalayan villages speak of blue-scaled dragons darting between cliffs at dusk, their shrieks echoing like avalanches. Locals both fear and respect them: on one hand, they steal jewels and trinkets; on the other, their shed scales are prized as remedies for fatigue, brewed into teas said to restore vigor after long treks. Modern climbers sometimes joke that if their gear goes missing overnight, it wasn’t stolen — it was ‘invested in a Gabite’s treasure hoard.’ Mischievous, sharp-eyed, and endlessly greedy, Gabite live for shiny finds and the thrill of ambushing anyone who stumbles too close to their caves."],
+  region: ["Himalayan Mountains (Nepal/Tibet)"],
+},
+{
+  id: 445,
+  name: "Garchomp",
+  types: ["Dragon","Ground"],
+  icon: "/assets/garchomp.png",
+  coords: [15.3229, 38.9251], // Danakil Depression, Ethiopia/Eritrea
+  habitat: ["Garchomp dominates the blazing deserts and savannas of East Africa, a living thunderbolt that streaks across the horizon faster than the eye can track. In the Danakil Depression — one of the hottest places on Earth — nomads tell of a dragon that rides the heat haze, its body vanishing and reappearing as if phasing in and out of the air itself. Its wings slice the wind so sharply that herders claim entire flocks panic at the sonic crack that follows in its wake. Fossil hunters in the Sahara whisper that Garchomp is tied to the bones of ancient sea reptiles buried in the sand, a predator born from deserts that were once oceans. In modern times, bush pilots crossing the Rift Valley report ‘false radar echoes’ — blips moving at jet speeds with no aircraft in sight. To locals, that’s just Garchomp patrolling its territory, testing whether you’re strong enough to cross the land it rules."],
+  region: ["Danakil Depression & Sahara fringes, East Africa"],
+},
+{
+  id: 443,
+  name: "Gible",
+  types: ["Dragon","Ground"],
+  icon: "/assets/gible.png",
+  coords: [13.5317, 2.4604], // Niger's Aïr Mountains, Sahara caves
+  habitat: ["Gible live in rocky caves and canyon walls, poking their heads out like mischievous gargoyles before diving back into the dark. In the wild, they treat everything as a chew toy — stones, bones, even travelers’ boots — their teeth marks often the only sign they’ve been around. African folklore folds them into stories of 'cave spirits' that steal food and shine from salt mines, likely just curious Gible dragging off shiny stones. In the anime, Gible is shown as clumsy but determined, and that spirit fits perfectly here: local guides laugh about how they’ll tumble down scree slopes, pop back up unharmed, and try the same stunt again. In modern times, researchers exploring desert cave systems report missing tools and half-bitten gear, which locals dismiss with a shrug: 'That’s just the baby dragons. They’ll grow out of it—eventually.'"],
+  region: ["Aïr Mountains, Sahara Desert (Niger)"],
+},
+{
+  id: 778,
+  name: "Mimikyu",
+  types: ["Ghost","Fairy"],
+  icon: "/assets/mimikyu.png",
+  coords: [35.6702, 139.7020], // Harajuku, Tokyo
+  habitat: ["Mimikyu drifts through the side streets of Harajuku, blending in among the neon wigs, masks, and costumes. Its disguise — a crooked Pikachu imitation — makes it look like just another piece of fashion, letting it walk unnoticed among crowds where everyone is dressed to stand out. In folklore, people whispered that Mimikyu’s true form brought sickness or sorrow, but in Harajuku it’s become oddly adored. Cosplayers leave little trinkets at night—buttons, stickers, scraps of fabric—believing a Mimikyu might take them as gifts and bless their next outfit. Locals joke that the only Pokémon more photographed than Pikachu in Tokyo is Mimikyu, but no one’s quite sure if the ones in pictures are costumes, dolls… or the real thing watching back."],
+  region: ["Harajuku (Tokyo, Japan)"],
+},
 {
   id: 159,
   name: "Croconaw",
